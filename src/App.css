@@ -1,38 +1,54 @@
-.App {
+.Progress{
+  width: 100%;
+  background-color: rgb(218, 218, 218);
+}
+
+.Players{
+  display: flex;
+  justify-content: space-around;
+}
+
+.Player{
+  width: 30%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.actions{
+  margin-top: 3%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content:center;
 }
 
-.App-link {
-  color: #61dafb;
+.btn{
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.start{
+  margin-top: 20px;
+  size: 150%;
+}
+
+.App{
+  text-align: center;
+}
+
+.Section2{
+  max-height: 220px;
+  overflow-y: scroll;
+  width: 50%;
+  margin: 3% 25%;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.MonsterMove{
+  font-size:x-large;
+  color: rgb(116, 116, 255);
+  background-color: rgb(191, 208, 255);
+}
+
+.PlayerMove{
+  font-size:x-large;
+  color:rgb(4, 128, 0);
+  background-color: rgb(226, 255, 182);
 }
